@@ -355,6 +355,7 @@ footer p {
     font-size: 1em;
 }
 
+/*
 ::-moz-selection {
     text-shadow: none;
     background: #fcfcfc;
@@ -378,6 +379,7 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+*/
 
 .first_btn {
 
