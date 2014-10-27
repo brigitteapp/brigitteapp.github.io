@@ -40,12 +40,6 @@
   ga('send', 'pageview');
 
 </script>
-
-	<!-- start Mixpanel -->
-<script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
-for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2.2.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
-mixpanel.init("f57c696fc982b840890b124be4c7b045");</script>
-	<!-- end Mixpanel -->
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -58,7 +52,7 @@ mixpanel.init("f57c696fc982b840890b124be4c7b045");</script>
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Rendez</span> Vous App
+                    <span class="img-brand-app"></span>
                 </a>
             </div>
 
@@ -90,15 +84,36 @@ mixpanel.init("f57c696fc982b840890b124be4c7b045");</script>
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-6">
                         <h1 class="brand-heading">Rendez-Vous</h1>
                         <p class="intro-text">Find you next exhibition in Paris.<br></p>
                         <a href="#about" class="btn btn-circle page-scroll">
                         	<i class="fa fa-angle-double-down animated"></i>
                         </a>
+                      
+                        <!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="//solartsystem.us3.list-manage.com/subscribe/post?u=e3b00ac57a13a4c1591205a35&amp;id=d822160cde" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+<div class="col-md-8">
+    <input type="email" value="" name="EMAIL" class="form-control" placeholder="Your Email e.g. jsnow@winterfell.com" id="mce-EMAIL">
+</div>
+    <div id="mce-responses" class="col-md-4">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_e3b00ac57a13a4c1591205a35_d822160cde" tabindex="-1" value=""></div>
+        <input type="submit" value="Request Beta" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default btn-lg first_btn">
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+<!-- <div class="col-md-4">
                         <a id="request" href="http://eepurl.com/6KcwX" class="btn btn-default btn-lg first_btn">Request an Invite </a>
+                    </div>-->
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="app"></div>
                     </div>
                 </div>
@@ -123,7 +138,24 @@ mixpanel.init("f57c696fc982b840890b124be4c7b045");</script>
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Request Beta Invite</h2>
                     <p>You can request early access to Rendez-Vous App right here</p>
-                    <a id="request" href="http://eepurl.com/6KcwX" class="btn btn-default btn-lg first_btn">Request an Invite </a>
+                    <!-- Begin MailChimp Signup Form -->
+                <div id="mc_embed_signup">
+                    <form action="//solartsystem.us3.list-manage.com/subscribe/post?u=e3b00ac57a13a4c1591205a35&amp;id=d822160cde" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <div class="col-md-9">
+                                <input type="email" value="" name="EMAIL" class="form-control" placeholder="Your Email e.g. jsnow@winterfell.com" id="mce-EMAIL">
+                            </div>
+                            <div id="mce-responses" class="col-md-4">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;"><input type="text" name="b_e3b00ac57a13a4c1591205a35_d822160cde" tabindex="-1" value=""></div>
+                            <input type="submit" value="Request Beta" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default btn-lg first_btn">
+                        </div>
+                    </form>
+                </div>
+
+                <!--End mc_embed_signup-->
                 </div>
             </div>
         </div>
@@ -135,14 +167,15 @@ mixpanel.init("f57c696fc982b840890b124be4c7b045");</script>
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact Us</h2>
                 <p>Feel free to email us to provide some feedback or to just say hello!</p>
-                <p>
-<a id="request" href="http://eepurl.com/6KcwX">hello@rendezvousapp.me</a>
-                </p>
+                <p><a href="mailto:hello@rendezvousapp.me?subject=Hello%20Rendez%20Vous%20App%20Team%21">hello@rendezvousapp.me</a>
                 <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="mailto:hello@rendezvousapp.me?subject=Hello%20Rendez%20Vous%20App%20Team%21" class="btn btn-default btn-lg last_btn"><i class="glyphicon glyphicon-envelope"></i> <span class="network-name">Email</span></a>
+                    </li>
                     <li>
                         <a href="https://twitter.com/rendezvousph" class="btn btn-default btn-lg last_btn"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                     </li>
-                </ul>
+                </ul></p>
             </div>
         </div>
     </section>
