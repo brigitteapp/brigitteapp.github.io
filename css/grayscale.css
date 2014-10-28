@@ -65,13 +65,14 @@ a:hover, a:focus {
     color: #fff;
 }
 .navbar-custom .nav li.active {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(55, 73, 121, 1);
+    border-radius: 5px;
 }
 .navbar-custom .nav li a {
     transition: background 0.3s ease-in-out 0s;
 }
 .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus, .navbar-custom .nav li a.active {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(55, 73, 121, 1);
     outline: 0 none;
 }
 @media (min-width: 767px) {
@@ -311,4 +312,96 @@ footer p {
     margin: 60px auto 0;
     width: 230px;
     border: none;
+}
+.wrap-team{
+    width: 25%;
+    padding: 2%;
+    height: 260px;
+    float: left;
+    text-align: center !important;
+    margin-bottom: 40px;
+}
+.wrap-team h3{
+    text-align: center;
+    width: initial;
+    font-size: 15px;
+    text-transform: inherit;
+    margin-bottom: 2px;
+}
+
+.linkedin-icon{
+    width: 35px;
+    height: 35px;
+    background: red;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrap-team p{
+    font-size:14px;
+    margin-bottom: 10px;
+}
+.wrap-team img{
+    margin-bottom:20px;
+    width: 135px;
+    height: 135Px;
+    border-radius: 100%;
+}
+.section-team{
+    background: rgb(67, 90, 213);
+    width: 100%;
+    padding: 100px 9%;
+}
+.fa-linkedin:before {
+    content: "\f0e1";
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    left: -10px;
+}
+.wrap-team-last{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+@media screen and (max-width: 980px) {
+    .form-control {
+        width: 70%;
+    }
+    .wrap-team {
+        width: 50%;
+    }
+
+    .section-team {
+        padding-bottom: 335Px;
+    }
+
+    .download-section {
+        padding-bottom: 151px;
+    }
+
+
+    .app {
+        position: relative;
+
+        margin-top: 150px;
+    }
+}
+@media screen and (max-width: 760px) {
+    .form-control {
+        width: 100%;
+    }
+    #mc-embedded-subscribe {
+        position: relative;
+
+        top: 42px;
+    }
+
+
+
 }
